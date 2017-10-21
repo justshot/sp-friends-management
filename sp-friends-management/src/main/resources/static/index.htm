@@ -1,0 +1,748 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:等线;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"等线 Light";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@等线 Light";}
+@font-face
+	{font-family:"\@等线";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;
+	font-weight:normal;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;
+	font-weight:normal;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-weight:normal;}
+code
+	{font-family:"Courier New";}
+pre
+	{mso-style-link:"HTML Preformatted Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Courier New";}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;}
+span.HTMLPreformattedChar
+	{mso-style-name:"HTML Preformatted Char";
+	mso-style-link:"HTML Preformatted";
+	font-family:"Courier New";}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-SG>
+
+<div class=WordSection1>
+
+<h1>Specification</h1>
+
+<h2>POST friendships/create</h2>
+
+<p class=MsoNormal>Create a friend connection between two email addresses.</p>
+
+<h3>Resource URL</h3>
+
+<p class=MsoNormal>https://sp-friends-api.cfapps.io/friendships/create</p>
+
+<h3>Fields</h3>
+
+<table class=MsoTable15Grid1LightAccent5 border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=150 valign=top style='width:112.7pt;border:solid #BDD6EE 1.0pt;
+  border-bottom:solid #9CC2E5 1.5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Name</p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:solid #BDD6EE 1.0pt;
+  border-left:none;border-bottom:solid #9CC2E5 1.5pt;border-right:solid #BDD6EE 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Description</p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:solid #BDD6EE 1.0pt;
+  border-left:none;border-bottom:solid #9CC2E5 1.5pt;border-right:solid #BDD6EE 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Required</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=150 valign=top style='width:112.7pt;border:solid #BDD6EE 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>friends</p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:none;border-left:
+  none;border-bottom:solid #BDD6EE 1.0pt;border-right:solid #BDD6EE 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>A list of two email address.</p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:none;border-left:
+  none;border-bottom:solid #BDD6EE 1.0pt;border-right:solid #BDD6EE 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Y</p>
+  </td>
+ </tr>
+</table>
+
+<h3>Request Example</h3>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>{</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>&nbsp; friends:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>&nbsp;&nbsp;&nbsp; [</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'andy@example.com',</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'john@example.com'</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>&nbsp;&nbsp;&nbsp; ]</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>}</span></p>
+
+<h3>Response Example</h3>
+
+<pre style='background:#F6F8FA'><code><span style='font-family:Consolas;
+color:#24292E'>{</span></code></pre><pre style='background:#F6F8FA'><code><span
+style='font-family:Consolas;color:#24292E'>&nbsp; &quot;success&quot;: true</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>}</span></code></pre>
+
+<h3>Failure Example</h3>
+
+<pre style='background:#F6F8FA'><code><span style='font-family:Consolas;
+color:#24292E'>{</span></code></pre><pre style='background:#F6F8FA'><code><span
+style='font-family:Consolas;color:#24292E'>&nbsp; &quot;success&quot;: false</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp;&nbsp; &quot;</span></code><code><span
+style='font-family:等线;color:#24292E'>e</span></code><code><span
+style='font-family:Consolas;color:#24292E'>rrorMessage&quot;: “No friends list provided.”</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>}</span></code></pre>
+
+<h2>POST friendships/searches</h2>
+
+<p class=MsoNormal>Retrieve the friends list for an email address.</p>
+
+<h3>Resource URL</h3>
+
+<p class=MsoNormal>https://sp-friends-api.cfapps.io/friendships/searches</p>
+
+<h3>Fields</h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='background:white;border-collapse:collapse;border:none'>
+ <tr>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  background:black;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b>Name</b></p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  border-left:none;background:black;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b>Description</b></p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  border-left:none;background:black;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b>Required</b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>email</p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Email address of the requestor</p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Y</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Request Example</h3>
+
+<pre style='background:#F6F8FA'><code><span style='font-family:Consolas;
+color:#24292E'>{</span></code></pre><pre style='background:#F6F8FA'><code><span
+style='font-family:Consolas;color:#24292E'>&nbsp; email: 'andy@example.com'</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>}</span></code></pre>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Response Example</h3>
+
+<pre style='background:#F6F8FA'><code><span style='font-family:Consolas;
+color:#24292E'>{</span></code></pre><pre style='background:#F6F8FA'><code><span
+style='font-family:Consolas;color:#24292E'>&nbsp; &quot;success&quot;: true,</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp; &quot;friends&quot; :</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp;&nbsp;&nbsp; [</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'john@example.com'</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp;&nbsp;&nbsp; ],</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp; &quot;count&quot; : 1&nbsp;&nbsp; </span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>}</span></code></pre>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Failure Example</h3>
+
+<pre style='background:#F6F8FA'><code><span style='font-family:Consolas;
+color:#24292E'>{</span></code></pre><pre style='background:#F6F8FA'><code><span
+style='font-family:Consolas;color:#24292E'>&nbsp; &quot;success&quot;: false,</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp;&nbsp; &quot;</span></code><code><span
+style='font-family:等线;color:#24292E'>e</span></code><code><span
+style='font-family:Consolas;color:#24292E'>rrorMessage&quot;: “No email provided.”</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>}</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp;</span></code></pre>
+
+<h2>POST friendships/searches/common</h2>
+
+<p class=MsoNormal>Retrieve the common friends list between two email addresses.</p>
+
+<h3>Resource URL</h3>
+
+<p class=MsoNormal>https://sp-friends-api.cfapps.io/friendships/searches/common</p>
+
+<h3>Fields</h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='background:white;border-collapse:collapse;border:none'>
+ <tr>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  background:black;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b>Name</b></p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  border-left:none;background:black;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b>Description</b></p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  border-left:none;background:black;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b>Required</b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>friends</p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>A list of email addresses.</p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Y</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Request Example</h3>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>{</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>&nbsp; friends:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>&nbsp;&nbsp;&nbsp; [</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'andy@example.com',</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'john@example.com'</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>&nbsp;&nbsp;&nbsp; ]</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>}</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Response Example</h3>
+
+<pre style='background:#F6F8FA'><code><span style='font-family:Consolas;
+color:#24292E'>{</span></code></pre><pre style='background:#F6F8FA'><code><span
+style='font-family:Consolas;color:#24292E'>&nbsp; &quot;success&quot;: true,</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp; &quot;friends&quot; :</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp;&nbsp;&nbsp; [</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'john@example.com'</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp;&nbsp;&nbsp; ],</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp; &quot;count&quot; : 1&nbsp;&nbsp; </span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>}</span></code></pre>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Failure Example</h3>
+
+<pre style='background:#F6F8FA'><code><span style='font-family:Consolas;
+color:#24292E'>{</span></code></pre><pre style='background:#F6F8FA'><code><span
+style='font-family:Consolas;color:#24292E'>&nbsp; &quot;success&quot;: false,</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp; &quot;</span></code><code><span
+style='font-family:等线;color:#24292E'>e</span></code><code><span
+style='font-family:Consolas;color:#24292E'>rrorMessage&quot;: “No friends list provided.”</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>}</span></code></pre>
+
+<h2>&nbsp;</h2>
+
+<h2>POST subscription/create</h2>
+
+<p class=MsoNormal>Subscribe to updates from an email address</p>
+
+<h3>Resource URL</h3>
+
+<p class=MsoNormal>https://sp-friends-api.cfapps.io/subscription/create</p>
+
+<h3>Fields</h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='background:white;border-collapse:collapse;border:none'>
+ <tr>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  background:black;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b>Name</b></p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  border-left:none;background:black;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b>Description</b></p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  border-left:none;background:black;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b>Required</b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><code><span style='font-size:10.0pt;font-family:Consolas;color:#24292E'>requestor</span></code></p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Email address of the requestor</p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Y</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><code><span style='font-size:10.0pt;font-family:Consolas;color:#24292E'>target</span></code></p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Email address of the target</p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Y</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Request Example</h3>
+
+<pre style='background:#F6F8FA'><code><span style='font-family:Consolas;
+color:#24292E'>{</span></code></pre><pre style='background:#F6F8FA'><code><span
+style='font-family:Consolas;color:#24292E'>&nbsp; &quot;requestor&quot;: &quot;lisa@example.com&quot;,</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp; &quot;target&quot;: &quot;john@example.com&quot;</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>}</span></code></pre>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Response Example</h3>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>{</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>&nbsp; &quot;success&quot;: true</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>}</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Failure Example</h3>
+
+<pre style='background:#F6F8FA'><code><span style='font-family:Consolas;
+color:#24292E'>{</span></code></pre><pre style='background:#F6F8FA'><code><span
+style='font-family:Consolas;color:#24292E'>&nbsp; &quot;success&quot;: false</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp; &quot;</span></code><code><span
+style='font-family:等线;color:#24292E'>e</span></code><code><span
+style='font-family:Consolas;color:#24292E'>rrorMessage&quot;: “No email list provided.”</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>}</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp;</span></code></pre>
+
+<h2>&nbsp;</h2>
+
+<h2>POST subscription/block</h2>
+
+<p class=MsoNormal>Block updates from an email address</p>
+
+<h3>Resource URL</h3>
+
+<p class=MsoNormal>https://sp-friends-api.cfapps.io/subscription/block</p>
+
+<h3>Fields</h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='background:white;border-collapse:collapse;border:none'>
+ <tr>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  background:black;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b>Name</b></p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  border-left:none;background:black;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b>Description</b></p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  border-left:none;background:black;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b>Required</b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><code><span style='font-size:10.0pt;font-family:Consolas;color:#24292E'>requestor</span></code></p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Email address of the requestor</p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Y</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><code><span style='font-size:10.0pt;font-family:Consolas;color:#24292E'>target</span></code></p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Email address of the target</p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Y</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Request Example</h3>
+
+<pre style='background:#F6F8FA'><code><span style='font-family:Consolas;
+color:#24292E'>{</span></code></pre><pre style='background:#F6F8FA'><code><span
+style='font-family:Consolas;color:#24292E'>&nbsp; &quot;requestor&quot;: &quot;lisa@example.com&quot;,</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp; &quot;target&quot;: &quot;john@example.com&quot;</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>}</span></code></pre>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Response Example</h3>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>{</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>&nbsp; &quot;success&quot;: true</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;background:#F6F8FA'><span style='font-size:10.0pt;font-family:Consolas;
+color:#24292E'>}</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Failure Example</h3>
+
+<pre style='background:#F6F8FA'><code><span style='font-family:Consolas;
+color:#24292E'>{</span></code></pre><pre style='background:#F6F8FA'><code><span
+style='font-family:Consolas;color:#24292E'>&nbsp; &quot;success&quot;: false</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp; &quot;</span></code><code><span
+style='font-family:等线;color:#24292E'>e</span></code><code><span
+style='font-family:Consolas;color:#24292E'>rrorMessage&quot;: “No email list provided.”</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>}</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp;</span></code></pre>
+
+<h2>POST subscription/searches</h2>
+
+<p class=MsoNormal>Retrieve all email addresses that can receive updates from
+an email address.</p>
+
+<h3>Resource URL</h3>
+
+<p class=MsoNormal>https://sp-friends-api.cfapps.io/subscription/searches</p>
+
+<h3>Fields</h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='background:white;border-collapse:collapse;border:none'>
+ <tr>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  background:black;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b>Name</b></p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  border-left:none;background:black;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b>Description</b></p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  border-left:none;background:black;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b>Required</b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>sender</p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Email address of the sender</p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Y</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=150 valign=top style='width:112.7pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>text</p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Text to be posted</p>
+  </td>
+  <td width=150 valign=top style='width:112.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'>Y</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Request Example</h3>
+
+<pre style='background:#F6F8FA'><code><span style='font-family:Consolas;
+color:#24292E'>{</span></code></pre><pre style='background:#F6F8FA'><code><span
+style='font-family:Consolas;color:#24292E'>&nbsp; &quot;sender&quot;:&nbsp; &quot;john@example.com&quot;,</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp; &quot;text&quot;: &quot;Hello World! kate@example.com&quot;</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>}</span></code></pre>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Response Example</h3>
+
+<pre style='background:#F6F8FA'><code><span style='font-family:Consolas;
+color:#24292E'>{</span></code></pre><pre style='background:#F6F8FA'><code><span
+style='font-family:Consolas;color:#24292E'>&nbsp; &quot;success&quot;: true</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp; &quot;recipients&quot;:</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp;&nbsp;&nbsp; [</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;lisa@example.com&quot;,</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;kate@example.com&quot;</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp;&nbsp;&nbsp; ]</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>}</span></code></pre>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Failure Example</h3>
+
+<pre style='background:#F6F8FA'><code><span style='font-family:Consolas;
+color:#24292E'>{</span></code></pre><pre style='background:#F6F8FA'><code><span
+style='font-family:Consolas;color:#24292E'>&nbsp; &quot;success&quot;: false</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>&nbsp; &quot;</span></code><code><span
+style='font-family:等线;color:#24292E'>e</span></code><code><span
+style='font-family:Consolas;color:#24292E'>rrorMessage&quot;: “No sender email provided.”</span></code></pre><pre
+style='background:#F6F8FA'><code><span style='font-family:Consolas;color:#24292E'>}</span></code></pre></div>
+
+</body>
+
+</html>
