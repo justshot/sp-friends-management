@@ -1,0 +1,12 @@
+curl --header "Content-type: application/json" --request POST --data "{\"friends\":[\"andy@example.com\",\"john@example.com\"]}" http://localhost:8080/friendships/create
+curl --header "Content-type: application/json" --request POST --data "{\"friends\":[\"andy@example.com\"]}" http://localhost:8080/friendships/create
+
+curl --header "Content-type: application/json" --request POST --data "{\"email\":\"andy@example.com\"}" http://localhost:8080/friendships/searches
+curl --header "Content-type: application/json" --request POST --data "{\"friends\":[\"be2n@example.com\",\"ben1@example.com\"]}" http://localhost:8080/friendships/searches/common
+
+curl --header "Content-type: application/json" --request POST --data "{\"friends\":[\"andy@example.com\",\"john@example.com\"]}" http://localhost:8080/subscription/create
+curl --header "Content-type: application/json" --request POST --data "{\"requestor\":\"andy@example.com\", \"target\":\"bobo@example.com\"}" http://localhost:8080/subscription/create
+
+curl --header "Content-type: application/json" --request POST --data "{\"requestor\":\"andy@example.com\", \"target\":\"bobo@example.com\"}" http://localhost:8080/subscription/block
+
+curl --header "Content-type: application/json" --request POST --data "{\"sender\":\"andy@example.com\", \"text\":\"hello world! bobo@example.com\"}" http://localhost:8080/subscription/searches
